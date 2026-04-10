@@ -1,0 +1,980 @@
+
+  {
+    "_id": 1,
+    "name": "Shere Khan",
+    "age": 10,
+    "gender": "Male",
+    "species": "Tiger",
+    "habitat": "Rainforest",
+    "birthplace": "Sundarbans, India",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 101, "nameCaretaker": "John Smith" }]
+  },
+  {
+    "_id": 2,
+    "name": "Rajah",
+    "age": 8,
+    "gender": "Male",
+    "species": "Tiger",
+    "habitat": "Rainforest",
+    "birthplace": "Bandipur Tiger Reserve, India",
+    "parents": [
+      { "name": "Shere Khan", "gender": "Male" },
+      { "name": "Tala", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 102, "nameCaretaker": "Emily Brown" }]
+  },
+  {
+    "_id": 3,
+    "name": "Tala",
+    "age": 7,
+    "gender": "Female",
+    "species": "Tiger",
+    "habitat": "Rainforest",
+    "birthplace": "Kaziranga National Park, India",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 103, "nameCaretaker": "Mark Taylor" }]
+  },
+  {
+    "_id": 4,
+    "name": "Tigris",
+    "age": 9,
+    "gender": "Female",
+    "species": "Tiger",
+    "habitat": "Rainforest",
+    "birthplace": "Chitwan National Park, Nepal",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 104, "nameCaretaker": "Olivia Harris" }]
+  },
+  {
+    "_id": 5,
+    "name": "Kumba",
+    "age": 6,
+    "gender": "Male",
+    "species": "Tiger",
+    "habitat": "Rainforest",
+    "birthplace": "Periyar National Park, India",
+    "parents": [
+      { "name": "Shere Khan", "gender": "Male" },
+      { "name": "Tigris", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 105, "nameCaretaker": "Sophia White" }]
+  },
+  {
+    "_id": 6,
+    "name": "Zara",
+    "age": 5,
+    "gender": "Female",
+    "species": "Tiger",
+    "habitat": "Rainforest",
+    "birthplace": "Sundarbans, India",
+    "parents": [
+      { "name": "Rajah", "gender": "Male" },
+      { "name": "Tala", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 106, "nameCaretaker": "Nathan Green" }]
+  },
+  {
+    "_id": 7,
+    "name": "Kiran",
+    "age": 4,
+    "gender": "Male",
+    "species": "Tiger",
+    "habitat": "Rainforest",
+    "birthplace": "Chitwan National Park, Nepal",
+    "parents": [
+      { "name": "Kumba", "gender": "Male" },
+      { "name": "Tigris", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 107, "nameCaretaker": "Michael Brown" }]
+  },
+ {
+    "_id": 8,
+    "name": "Mufasa",
+    "age": 10,
+    "gender": "Male",
+    "species": "Lion",
+    "habitat": "Savanna",
+    "birthplace": "Serengeti National Park, Tanzania",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 201, "nameCaretaker": "John Smith" }]
+  },
+  {
+    "_id": 9,
+    "name": "Sarabi",
+    "age": 9,
+    "gender": "Female",
+    "species": "Lion",
+    "habitat": "Savanna",
+    "birthplace": "Mufasa's Pride Zoo",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 202, "nameCaretaker": "Emily Brown" }]
+  },
+  {
+    "_id": 10,
+    "name": "Simba",
+    "age": 4,
+    "gender": "Male",
+    "species": "Lion",
+    "habitat": "Savanna",
+    "birthplace": "Mufasa's Pride Zoo",
+    "parents": [
+      { "name": "Mufasa", "gender": "Male" },
+      { "name": "Sarabi", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 203, "nameCaretaker": "Alice Green" }]
+  },
+  {
+    "_id": 11,
+    "name": "Nala",
+    "age": 6,
+    "gender": "Female",
+    "species": "Lion",
+    "habitat": "Savanna",
+    "birthplace": "Nairobi Zoo, Kenya",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 204, "nameCaretaker": "Mark Taylor" }]
+  },
+  {
+    "_id": 12,
+    "name": "Scar",
+    "age": 12,
+    "gender": "Male",
+    "species": "Lion",
+    "habitat": "Savanna",
+    "birthplace": "Serengeti National Park, Tanzania",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 205, "nameCaretaker": "Michael Davis" }]
+  },
+   {
+    "_id": 13,
+    "name": "Dumbo",
+    "age": 25,
+    "gender": "Male",
+    "species": "Elephant",
+    "habitat": "Grasslands",
+    "birthplace": "Serengeti National Park, Tanzania",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 301, "nameCaretaker": "John Smith" }]
+  },
+  {
+    "_id": 14,
+    "name": "Jumbo",
+    "age": 30,
+    "gender": "Male",
+    "species": "Elephant",
+    "habitat": "Grasslands",
+    "birthplace": "Kruger National Park, South Africa",
+    "parents": [
+      { "name": "Dumbo", "gender": "Male" },
+      { "name": "Ella", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 302, "nameCaretaker": "Emily Brown" }]
+  },
+  {
+    "_id": 15,
+    "name": "Ella",
+    "age": 20,
+    "gender": "Female",
+    "species": "Elephant",
+    "habitat": "Grasslands",
+    "birthplace": "Serengeti National Park, Tanzania",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 303, "nameCaretaker": "Alice Green" }]
+  },
+  {
+    "_id": 16,
+    "name": "Tantor",
+    "age": 15,
+    "gender": "Male",
+    "species": "Elephant",
+    "habitat": "Grasslands",
+    "birthplace": "Kruger National Park, South Africa",
+    "parents": [
+      { "name": "Dumbo", "gender": "Male" },
+      { "name": "Ella", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 304, "nameCaretaker": "Mark Taylor" }]
+  },
+    {
+    "_id": 17,
+    "name": "Balu",
+    "age": 12,
+    "gender": "Male",
+    "species": "Bear",
+    "habitat": "Mountain Forest",
+    "birthplace": "Rocky Mountains, USA",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 401, "nameCaretaker": "Jake Adams" }]
+  },
+  {
+    "_id": 18,
+    "name": "Kenai",
+    "age": 8,
+    "gender": "Female",
+    "species": "Bear",
+    "habitat": "Mountain Forest",
+    "birthplace": "Yellowstone National Park, USA",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 402, "nameCaretaker": "Sophia Green" }]
+  },
+  {
+    "_id": 19,
+    "name": "Koda",
+    "age": 6,
+    "gender": "Male",
+    "species": "Bear",
+    "habitat": "Mountain Forest",
+    "birthplace": "Denali National Park, USA",
+    "parents": [
+      { "name": "Balu", "gender": "Male" },
+      { "name": "Kenai", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 403, "nameCaretaker": "Emily Brown" }]
+  },
+  {
+    "_id": 20,
+    "name": "Yogi",
+    "age": 10,
+    "gender": "Male",
+    "species": "Bear",
+    "habitat": "Mountain Forest",
+    "birthplace": "Glacier National Park, USA",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 404, "nameCaretaker": "Michael Davis" }]
+  },
+  {
+    "_id": 21,
+    "name": "Smokey",
+    "age": 11,
+    "gender": "Male",
+    "species": "Bear",
+    "habitat": "Mountain Forest",
+    "birthplace": "Appalachian Mountains, USA",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 405, "nameCaretaker": "John Smith" }]
+  },
+  {
+    "_id": 22,
+    "name": "Bagheera",
+    "age": 8,
+    "gender": "Male",
+    "species": "Panther",
+    "habitat": "Rainforest",
+    "birthplace": "Amazon Rainforest, Brazil",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 406, "nameCaretaker": "Alice Green" }]
+  },
+  {
+    "_id": 23,
+    "name": "Shadow",
+    "age": 5,
+    "gender": "Male",
+    "species": "Panther",
+    "habitat": "Rainforest",
+    "birthplace": "Amazon Rainforest, Brazil",
+    "parents": [
+      { "name": "Bagheera", "gender": "Male" },
+      { "name": "Luna", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 407, "nameCaretaker": "Mark Taylor" }]
+  },
+  {
+    "_id": 24,
+    "name": "Luna",
+    "age": 7,
+    "gender": "Female",
+    "species": "Panther",
+    "habitat": "Rainforest",
+    "birthplace": "Amazon Rainforest, Brazil",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 408, "nameCaretaker": "Nathan Green" }]
+  },
+  {
+    "_id": 25,
+    "name": "Fang",
+    "age": 6,
+    "gender": "Male",
+    "species": "Wolf",
+    "habitat": "Tundra",
+    "birthplace": "Alaska, USA",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 409, "nameCaretaker": "Emily White" }]
+  },
+  {
+    "_id": 26,
+    "name": "Luna",
+    "age": 5,
+    "gender": "Female",
+    "species": "Wolf",
+    "habitat": "Tundra",
+    "birthplace": "Yukon, Canada",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 410, "nameCaretaker": "Sophia Taylor" }]
+  },
+  {
+    "_id": 27,
+    "name": "Ghost",
+    "age": 7,
+    "gender": "Male",
+    "species": "Wolf",
+    "habitat": "Tundra",
+    "birthplace": "Yellowstone National Park, USA",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 411, "nameCaretaker": "Michael Brown" }]
+  },
+  {
+    "_id": 28,
+    "name": "Shadow",
+    "age": 6,
+    "gender": "Male",
+    "species": "Wolf",
+    "habitat": "Tundra",
+    "birthplace": "Alaska, USA",
+    "parents": [
+      { "name": "Fang", "gender": "Male" },
+      { "name": "Luna", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 412, "nameCaretaker": "John White" }]
+  },
+  {
+    "_id": 29,
+    "name": "Snow",
+    "age": 5,
+    "gender": "Female",
+    "species": "Wolf",
+    "habitat": "Tundra",
+    "birthplace": "Denali National Park, USA",
+    "parents": [
+      { "name": "Ghost", "gender": "Male" },
+      { "name": "Luna", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 413, "nameCaretaker": "Nathan Hall" }]
+  },
+  {
+    "_id": 30,
+    "name": "Blaze",
+    "age": 8,
+    "gender": "Male",
+    "species": "Wolf",
+    "habitat": "Tundra",
+    "birthplace": "Yukon, Canada",
+    "parents": [
+      { "name": "Fang", "gender": "Male" },
+      { "name": "Luna", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 414, "nameCaretaker": "Sophia Green" }]
+  },
+  {
+    "_id": 31,
+    "name": "Storm",
+    "age": 6,
+    "gender": "Male",
+    "species": "Wolf",
+    "habitat": "Tundra",
+    "birthplace": "Yellowstone National Park, USA",
+    "parents": [
+      { "name": "Ghost", "gender": "Male" },
+      { "name": "Luna", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 415, "nameCaretaker": "Alice Brown" }]
+  },  {
+    "_id": 32,
+    "name": "Rattle",
+    "age": 5,
+    "gender": "Male",
+    "species": "Rattlesnake",
+    "habitat": "Desert",
+    "birthplace": "Arizona, USA",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 501, "nameCaretaker": "Jake Adams" }]
+  },
+  {
+    "_id": 33,
+    "name": "Freedom",
+    "age": 6,
+    "gender": "Male",
+    "species": "Eagle",
+    "habitat": "Mountains",
+    "birthplace": "Rocky Mountains, USA",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 502, "nameCaretaker": "Emily Brown" }]
+  },
+  {
+    "_id": 34,
+    "name": "Liberty",
+    "age": 4,
+    "gender": "Female",
+    "species": "Eagle",
+    "habitat": "Mountains",
+    "birthplace": "Yellowstone National Park, USA",
+    "parents": [
+      { "name": "Freedom", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 503, "nameCaretaker": "John White" }]
+  },
+  {
+    "_id": 35,
+    "name": "Rafiki",
+    "age": 12,
+    "gender": "Male",
+    "species": "Mandrill",
+    "habitat": "Rainforest",
+    "birthplace": "Gabon",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 504, "nameCaretaker": "Alice Green" }]
+  },
+  {
+    "_id": 36,
+    "name": "Kibo",
+    "age": 10,
+    "gender": "Male",
+    "species": "Mandrill",
+    "habitat": "Rainforest",
+    "birthplace": "Congo Basin",
+    "parents": [
+      { "name": "Rafiki", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 505, "nameCaretaker": "Sophia Taylor" }]
+  },
+  {
+    "_id": 37,
+    "name": "Zuri",
+    "age": 8,
+    "gender": "Female",
+    "species": "Mandrill",
+    "habitat": "Rainforest",
+    "birthplace": "Congo Basin",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 506, "nameCaretaker": "Mark Brown" }]
+  },
+  {
+    "_id": 38,
+    "name": "Jambo",
+    "age": 6,
+    "gender": "Male",
+    "species": "Mandrill",
+    "habitat": "Rainforest",
+    "birthplace": "Gabon",
+    "parents": [
+      { "name": "Rafiki", "gender": "Male" },
+      { "name": "Zuri", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 507, "nameCaretaker": "Nathan Green" }]
+  },
+  {
+    "_id": 39,
+    "name": "Nia",
+    "age": 7,
+    "gender": "Female",
+    "species": "Mandrill",
+    "habitat": "Rainforest",
+    "birthplace": "Congo Basin",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 508, "nameCaretaker": "Olivia Davis" }]
+  },
+  {
+    "_id": 40,
+    "name": "Tamu",
+    "age": 5,
+    "gender": "Male",
+    "species": "Mandrill",
+    "habitat": "Rainforest",
+    "birthplace": "Gabon",
+    "parents": [
+      { "name": "Rafiki", "gender": "Male" },
+      { "name": "Zuri", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 509, "nameCaretaker": "Jake Adams" }]
+  },
+  {
+    "_id": 41,
+    "name": "Chuma",
+    "age": 4,
+    "gender": "Female",
+    "species": "Mandrill",
+    "habitat": "Rainforest",
+    "birthplace": "Congo Basin",
+    "parents": [
+      { "name": "Jambo", "gender": "Male" },
+      { "name": "Nia", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 510, "nameCaretaker": "Sophia White" }]
+  },
+  {
+    "_id": 42,
+    "name": "Mia",
+    "age": 5,
+    "gender": "Female",
+    "species": "Spider Monkey",
+    "habitat": "Rainforest",
+    "birthplace": "Amazon Rainforest, Brazil",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 511, "nameCaretaker": "Mark Taylor" }]
+  },
+  {
+    "_id": 43,
+    "name": "Lola",
+    "age": 6,
+    "gender": "Female",
+    "species": "Spider Monkey",
+    "habitat": "Rainforest",
+    "birthplace": "Amazon Rainforest, Brazil",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 512, "nameCaretaker": "Emily Green" }]
+  },
+  {
+    "_id": 44,
+    "name": "Coco",
+    "age": 7,
+    "gender": "Male",
+    "species": "Spider Monkey",
+    "habitat": "Rainforest",
+    "birthplace": "Amazon Rainforest, Brazil",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 513, "nameCaretaker": "Nathan Green" }]
+  },
+  {
+    "_id": 45,
+    "name": "Max",
+    "age": 6,
+    "gender": "Male",
+    "species": "Coyote",
+    "habitat": "Desert",
+    "birthplace": "Nevada, USA",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 514, "nameCaretaker": "Sophia Taylor" }]
+  },
+  {
+    "_id": 46,
+    "name": "Luna",
+    "age": 5,
+    "gender": "Female",
+    "species": "Coyote",
+    "habitat": "Desert",
+    "birthplace": "Texas, USA",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 515, "nameCaretaker": "Emily Brown" }]
+  },
+  {
+    "_id": 47,
+    "name": "Shadow",
+    "age": 6,
+    "gender": "Male",
+    "species": "Coyote",
+    "habitat": "Desert",
+    "birthplace": "Nevada, USA",
+    "parents": [
+      { "name": "Max", "gender": "Male" },
+      { "name": "Luna", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 516, "nameCaretaker": "John White" }]
+  },
+  {
+    "_id": 48,
+    "name": "Maya",
+    "age": 5,
+    "gender": "Female",
+    "species": "Coyote",
+    "habitat": "Desert",
+    "birthplace": "Texas, USA",
+    "parents": [
+      { "name": "Max", "gender": "Male" },
+      { "name": "Luna", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 517, "nameCaretaker": "Sophia Green" }]
+  },
+  {
+    "_id": 49,
+    "name": "Blaze",
+    "age": 7,
+    "gender": "Male",
+    "species": "Coyote",
+    "habitat": "Desert",
+    "birthplace": "Nevada, USA",
+    "parents": [
+      { "name": "Max", "gender": "Male" },
+      { "name": "Luna", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 518, "nameCaretaker": "Emily White" }]
+  },
+  {
+    "_id": 50,
+    "name": "Storm",
+    "age": 6,
+    "gender": "Male",
+    "species": "Coyote",
+    "habitat": "Desert",
+    "birthplace": "Texas, USA",
+    "parents": [
+      { "name": "Max", "gender": "Male" },
+      { "name": "Luna", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 519, "nameCaretaker": "Nathan Hall" }]
+  },
+  {
+    "_id": 51,
+    "name": "Shere Khan",
+    "age": 10,
+    "gender": "Male",
+    "species": "Tiger",
+    "habitat": "Rainforest",
+    "birthplace": "Sundarbans, India",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 520, "nameCaretaker": "Michael Brown" }]
+  },
+  {
+    "_id": 52,
+    "name": "Rajah",
+    "age": 8,
+    "gender": "Male",
+    "species": "Tiger",
+    "habitat": "Rainforest",
+    "birthplace": "Bandipur Tiger Reserve, India",
+    "parents": [
+      { "name": "Shere Khan", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 521, "nameCaretaker": "Emily Green" }]
+  },
+  {
+    "_id": 53,
+    "name": "Tala",
+    "age": 7,
+    "gender": "Female",
+    "species": "Tiger",
+    "habitat": "Rainforest",
+    "birthplace": "Kaziranga National Park, India",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 522, "nameCaretaker": "Mark Taylor" }]
+  },
+  {
+    "_id": 54,
+    "name": "Buffy",
+    "age": 8,
+    "gender": "Male",
+    "species": "Buffalo",
+    "habitat": "Grasslands",
+    "birthplace": "Serengeti National Park, Tanzania",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 523, "nameCaretaker": "Alice White" }]
+  },
+  {
+    "_id": 55,
+    "name": "Bison",
+    "age": 9,
+    "gender": "Male",
+    "species": "Buffalo",
+    "habitat": "Grasslands",
+    "birthplace": "Serengeti National Park, Tanzania",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 524, "nameCaretaker": "Nathan Hall" }]
+  },
+  {
+    "_id": 56,
+    "name": "Grazor",
+    "age": 7,
+    "gender": "Female",
+    "species": "Buffalo",
+    "habitat": "Grasslands",
+    "birthplace": "Serengeti National Park, Tanzania",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 525, "nameCaretaker": "Jake Adams" }]
+  },
+    {
+    "_id": 57,
+    "name": "Joey",
+    "age": 5,
+    "gender": "Male",
+    "species": "Kangaroo",
+    "habitat": "Grasslands",
+    "birthplace": "Australia",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 601, "nameCaretaker": "Alice Brown" }]
+  },
+  {
+    "_id": 58,
+    "name": "Ruby",
+    "age": 4,
+    "gender": "Female",
+    "species": "Kangaroo",
+    "habitat": "Grasslands",
+    "birthplace": "Australia",
+    "parents": [
+      { "name": "Joey", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 602, "nameCaretaker": "Emily Green" }]
+  },
+  {
+    "_id": 59,
+    "name": "Skip",
+    "age": 6,
+    "gender": "Male",
+    "species": "Kangaroo",
+    "habitat": "Grasslands",
+    "birthplace": "Australia",
+    "parents": [
+      { "name": "Joey", "gender": "Male" },
+      { "name": "Ruby", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 603, "nameCaretaker": "Jake Adams" }]
+  },
+  {
+    "_id": 60,
+    "name": "Dune",
+    "age": 7,
+    "gender": "Male",
+    "species": "Dromedary",
+    "habitat": "Desert",
+    "birthplace": "Sahara, Africa",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 604, "nameCaretaker": "Mark Taylor" }]
+  },
+  {
+    "_id": 61,
+    "name": "Sandy",
+    "age": 5,
+    "gender": "Female",
+    "species": "Dromedary",
+    "habitat": "Desert",
+    "birthplace": "Sahara, Africa",
+    "parents": [
+      { "name": "Dune", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 605, "nameCaretaker": "Emily Brown" }]
+  },
+  {
+    "_id": 62,
+    "name": "Hump",
+    "age": 6,
+    "gender": "Male",
+    "species": "Dromedary",
+    "habitat": "Desert",
+    "birthplace": "Sahara, Africa",
+    "parents": [
+      { "name": "Dune", "gender": "Male" },
+      { "name": "Sandy", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 606, "nameCaretaker": "Nathan Green" }]
+  },
+  {
+    "_id": 63,
+    "name": "Hippo",
+    "age": 15,
+    "gender": "Male",
+    "species": "Hippopotamus",
+    "habitat": "River",
+    "birthplace": "Nile River, Africa",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 607, "nameCaretaker": "Alice Green" }]
+  },
+  {
+    "_id": 64,
+    "name": "Muddy",
+    "age": 12,
+    "gender": "Female",
+    "species": "Hippopotamus",
+    "habitat": "River",
+    "birthplace": "Nile River, Africa",
+    "parents": [
+      { "name": "Hippo", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 608, "nameCaretaker": "Mark Brown" }]
+  },
+  {
+    "_id": 65,
+    "name": "Splash",
+    "age": 10,
+    "gender": "Male",
+    "species": "Hippopotamus",
+    "habitat": "River",
+    "birthplace": "Nile River, Africa",
+    "parents": [
+      { "name": "Hippo", "gender": "Male" },
+      { "name": "Muddy", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 609, "nameCaretaker": "Sophia Taylor" }]
+  },
+  {
+    "_id": 66,
+    "name": "Spot",
+    "age": 12,
+    "gender": "Male",
+    "species": "Giraffe",
+    "habitat": "Savanna",
+    "birthplace": "Serengeti, Tanzania",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 610, "nameCaretaker": "Michael Davis" }]
+  },
+  {
+    "_id": 67,
+    "name": "Grace",
+    "age": 11,
+    "gender": "Female",
+    "species": "Giraffe",
+    "habitat": "Savanna",
+    "birthplace": "Serengeti, Tanzania",
+    "parents": [
+      { "name": "Spot", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 611, "nameCaretaker": "Sophia Green" }]
+  },
+  {
+    "_id": 68,
+    "name": "Tallie",
+    "age": 9,
+    "gender": "Female",
+    "species": "Giraffe",
+    "habitat": "Savanna",
+    "birthplace": "Serengeti, Tanzania",
+    "parents": [
+      { "name": "Spot", "gender": "Male" },
+      { "name": "Grace", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 612, "nameCaretaker": "Mark Taylor" }]
+  },
+  {
+    "_id": 69,
+    "name": "Neckie",
+    "age": 8,
+    "gender": "Male",
+    "species": "Giraffe",
+    "habitat": "Savanna",
+    "birthplace": "Serengeti, Tanzania",
+    "parents": [
+      { "name": "Spot", "gender": "Male" },
+      { "name": "Grace", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 613, "nameCaretaker": "Emily Brown" }]
+  },
+  {
+    "_id": 70,
+    "name": "Horn",
+    "age": 7,
+    "gender": "Male",
+    "species": "Rhinoceros",
+    "habitat": "Grasslands",
+    "birthplace": "Kenya",
+    "parents": [
+      { "name": "Unknown", "gender": "Male" },
+      { "name": "Unknown", "gender": "Female" }
+    ],
+    "caretakers": [{ "idCaretaker": 614, "nameCaretaker": "Nathan Hall" }]
+  }
