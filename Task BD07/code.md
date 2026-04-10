@@ -1012,7 +1012,7 @@
 
 10. db.animals.updateMany({}, {$rename:{habitat: "environment"}})
 
-11- db.animals.aggregate([ { $match: {age: {$lt: 10} } }, { $sort: {name: 1 }} ])
+11. db.animals.aggregate([ { $match: {age: {$lt: 10} } }, { $sort: {name: 1 }} ])
 
 12. db.animals.aggregate([ { $group: { _id: "$species", total: { $sum: 1 } } }])
 
