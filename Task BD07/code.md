@@ -5,7 +5,7 @@
 3. show dbs 
    show collections
 
-4. db.insertMany([
+4. db.animals.insertMany([
   {
     "_id": 1,
     "name": "Shere Khan",
