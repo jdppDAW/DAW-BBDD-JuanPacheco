@@ -987,7 +987,7 @@
   }
 ])
 
-5.  db.animals.find({ habitat: "Rainforest", "caretakers.nameCaretaker": "Emily Brown" })
+5.  db.animals.find({ $and: [ {habitat: "Rainforest"}, {"caretakers.nameCaretaker": "Emily Brown"}]})
 
 6.  db.animals.find({}, {_id: 0, name: 1, species: 1, habitat: 1}). sort({species: 1})
 
